@@ -1,0 +1,18 @@
+/* 
+font-family: 'Jura', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Montserrat', sans-serif; 
+Colors : #142850 , #27496d, #00909e, #dae1e7, #e43f5a, #1f4068, #1b1b2f, #e43f5a
+*/
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+  font-size: 62.5%;
+}
