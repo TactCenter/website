@@ -14,5 +14,55 @@ Colors : #142850 , #27496d, #00909e, #dae1e7, #e43f5a, #1f4068, #1b1b2f, #e43f5a
 
 html {
   font-family: "Montserrat", sans-serif;
-  font-size: 62.5%;
+  font-size: 62.5%px;
+}
+
+body {
+  position: relative;
+}
+
+.nav-wrapper {
+  font-family: "Jura", sans-serif;
+  font-size: 1.5rem;
+}
+
+.brand-logo {
+  font-family: "Jura", sans-serif;
+  font-size: 2rem;
+}
+
+.parallax-container {
+  background-image: linear-gradient(
+      to right,
+      #0d47a1e8,
+      #bbdefbdc
+    ),
+    url("../img/data2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 90vh;
+}
+
+.banner-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -100%);
+}
+
+.banner-text-main {
+  display: block;
+  font-size: 150%;
+  letter-spacing: 32px;
+  text-align: center;
+  font-family: 'Jura', sans-serif;
+}
+
+.banner-text-sub {
+  display: block;
+  font-size: 2rem;
+  letter-spacing: 19px;
+  text-align: center;
+  font-family: 'Lora', serif;
 }
